@@ -4,16 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>Home001</groupId>
+    <groupId>Home_Testing</groupId>
     <artifactId>Home_Testing</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <dependency>
-            <groupId>io.github.bonigarcia</groupId>
-            <artifactId>webdrivermanager</artifactId>
-            <version>3.3.0</version>
-        </dependency>
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
@@ -39,12 +34,6 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.9.8</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <groupId>net.masterthought</groupId>
             <artifactId>cucumber-reporting</artifactId>
             <version>3.8.0</version>
@@ -68,56 +57,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <artifactId>selenium-support</artifactId>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <version>3.0.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>selenium-support</artifactId>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <version>3.0.1</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
             <artifactId>cucumber-junit</artifactId>
             <groupId>info.cukes</groupId>
-            <version>1.0.2</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>cucumber-junit</artifactId>
-            <groupId>info.cukes</groupId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>cucumber-junit</artifactId>
-            <groupId>info.cukes</groupId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>cucumber-junit</artifactId>
-            <groupId>info.cukes</groupId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>cucumber-junit</artifactId>
-            <groupId>info.cukes</groupId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <artifactId>cucumber-junit</artifactId>
-            <groupId>info.cukes</groupId>
-            <version>1.2.5</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>cucumber-junit</artifactId>
             <version>1.0.2</version>
             <scope>test</scope>
         </dependency>

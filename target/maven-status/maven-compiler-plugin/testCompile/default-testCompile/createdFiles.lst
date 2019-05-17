@@ -1,2 +1,3 @@
 stepDefinition\login.class
+stepDefinition\facebookAccount.class
 runner\TestRunner.class

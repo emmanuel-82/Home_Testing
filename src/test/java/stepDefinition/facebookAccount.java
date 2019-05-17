@@ -17,6 +17,7 @@ public class facebookAccount {
     @Given("^I launch browser and am on \"([^\"]*)\"$")
     public void i_launch_browser_and_am_on(String arg1) {
         // Write code here that turns the phrase above into concrete actions
+        System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.navigate().to("https://www.facebook.com/");
