@@ -50,6 +50,8 @@ public class vReset2 {
     @Then("^I should see \"([^\"]*)\"$")
     public void i_should_see(String arg1)  {
 
+        driver.quit();
+
     }
 
 

@@ -41,6 +41,7 @@ public class VLogin {
     public void i_should_see_a_message(String arg1)  {
 
         System.out.print("<Message>");
+        driver.quit();
     }
 
 }
